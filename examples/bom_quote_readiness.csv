@@ -1,0 +1,4 @@
+component,supplier,quoted_cost,currency,annual_volume,evidence_source,tax_status,target_cost,material,process
+Seat bracket,Supplier A,18.40,CNY,60000,supplier quote pack,tax-included,17.20,steel,stamping
+Battery tray fastener,Supplier B,2.35,CNY,240000,supplier quote pack,tax-excluded,,,
+HV harness clip,,0.82,CNY,,,tax-included,,PA66,injection molding

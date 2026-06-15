@@ -1,6 +1,20 @@
 # Methodology
 
-This project uses a five-step workflow to convert automotive value engineering work into AI Skills.
+This project uses a readiness gate plus a five-step workflow to convert automotive value engineering work into AI Skills.
+
+## 0. Check Input Readiness
+
+Before a Skill drafts VAVE opportunities, check whether BOM and quotation rows contain the minimum fields needed for safe processing:
+
+- component
+- supplier
+- quoted cost
+- currency
+- annual volume
+- evidence source
+- tax status
+
+Missing supplier, volume, tax, or source fields should block AI-assisted drafting until a human fills them. Missing target cost, material, or process should be treated as a business-review item.
 
 ## 1. Mine The Workflow
 
@@ -85,4 +99,3 @@ Track:
 - issue fix rate
 
 Use feedback to update input templates, output formats, business rules, and guardrails.
-

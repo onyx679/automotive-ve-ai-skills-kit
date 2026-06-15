@@ -31,12 +31,19 @@ automotive-ve-ai-skills-kit/
   src/ve_ai_skills_kit/
     scoring.py
     adoption.py
+    readiness.py
   scripts/
     score_skill_candidates.py
     generate_adoption_report.py
+    check_bom_quote_readiness.py
   examples/
     scenario_candidates.csv
     adoption_metrics.csv
+    bom_quote_readiness.csv
+    output/
+      skill_candidate_ranking.md
+      adoption_report.md
+      bom_quote_readiness_report.md
   tests/
 ```
 
@@ -63,10 +70,17 @@ Generate an adoption report:
 python scripts/generate_adoption_report.py examples/adoption_metrics.csv
 ```
 
+Check whether BOM and quotation rows are ready for AI-assisted VAVE drafting:
+
+```bash
+python scripts/check_bom_quote_readiness.py examples/bom_quote_readiness.csv
+```
+
 Example outputs:
 
 - [Skill candidate ranking](./examples/output/skill_candidate_ranking.md)
 - [Adoption report](./examples/output/adoption_report.md)
+- [BOM and quotation readiness report](./examples/output/bom_quote_readiness_report.md)
 
 Run tests:
 
@@ -85,10 +99,15 @@ For cost and supplier-sensitive workflows, this kit separates conclusions into:
 
 The AI assistant should never fabricate cost, supplier, quality, or engineering feasibility conclusions.
 
+## Readiness Gate
+
+Before drafting VAVE opportunities, use the BOM and quotation readiness check to identify rows that are blocked by missing supplier, volume, tax, or evidence-source fields. Rows with missing target cost, material, or process are treated as business-review items rather than AI-ready evidence.
+
 ## Methodology
 
-See [docs/methodology.md](./docs/methodology.md) for the five-step workflow:
+See [docs/methodology.md](./docs/methodology.md) for the readiness gate plus five-step workflow:
 
+0. Check input readiness.
 1. Mine the workflow.
 2. Score Skill candidates.
 3. Productize the Skill.
