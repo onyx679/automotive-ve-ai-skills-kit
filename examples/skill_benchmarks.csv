@@ -1,0 +1,5 @@
+source_skill,source_repo,reusable_pattern,target_ve_scenario,domain_fit,workflow_similarity,customization_depth,validation_strength,attribution_clarity
+skill-creator,anthropics/skills,Skill anatomy and validation workflow,Standardize VE Skill packaging and review gates,5,5,5,5,5
+resume-writer,community-skill-example,Structured evidence-backed writing flow,Generate honest VE AI BP resume evidence matrix,3,4,4,4,5
+changelog-generator,claude-builders-bounty,Git-history-to-report automation pattern,Produce Skill release notes and adoption-change summaries,3,4,3,4,4
+meeting-notes,community-skill-example,Notes-to-actions extraction pattern,Convert VAVE review notes into opportunity register drafts,5,4,5,3,4

@@ -1,6 +1,6 @@
 [project]
 name = "automotive-ve-ai-skills-kit"
-version = "0.3.0"
+version = "0.4.0"
 description = "AI Skill templates and workflow scoring tools for automotive value engineering productivity scenarios."
 readme = "README.md"
 requires-python = ">=3.10"

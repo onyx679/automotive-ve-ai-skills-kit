@@ -99,3 +99,17 @@ Track:
 - issue fix rate
 
 Use feedback to update input templates, output formats, business rules, and guardrails.
+
+## 6. Adapt Community Patterns Responsibly
+
+When using public Claude Code, Codex, or agent Skill examples, separate reusable structure from domain content.
+
+Evaluate each source pattern across:
+
+- domain fit
+- workflow similarity
+- customization depth
+- validation strength
+- attribution clarity
+
+Only adapt patterns that can be rewritten into a specific VE workflow with license-compatible attribution, redacted examples, tests or smoke checks, and explicit human-review boundaries. Do not present renamed community material as original work.

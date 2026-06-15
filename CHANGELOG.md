@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.4.0 - 2026-06-16
+
+- Add `ve-skill-benchmark-adapter` for turning community Skill patterns into properly attributed automotive VE/VAVE Skill designs.
+- Add `scripts/adapt_skill_benchmarks.py`, sample benchmark data, generated Markdown output, and unit tests for adaptation recommendations.
+
 ## v0.3.0 - 2026-06-16
 
 - Add `ve-evidence-auditor` for checking resume, portfolio, release, and report claims against evidence links, evidence levels, verdicts, and honest wording boundaries.
