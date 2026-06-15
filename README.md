@@ -30,22 +30,27 @@ automotive-ve-ai-skills-kit/
     vave-cost-opportunity/
     ve-manual-writer/
     skill-adoption-feedback/
+    ve-evidence-auditor/
   src/ve_ai_skills_kit/
     scoring.py
     adoption.py
     readiness.py
+    evidence.py
   scripts/
     score_skill_candidates.py
     generate_adoption_report.py
     check_bom_quote_readiness.py
+    generate_evidence_matrix.py
   examples/
     scenario_candidates.csv
     adoption_metrics.csv
     bom_quote_readiness.csv
+    evidence_claims.csv
     output/
       skill_candidate_ranking.md
       adoption_report.md
       bom_quote_readiness_report.md
+      evidence_claim_matrix.md
   tests/
 ```
 
@@ -57,6 +62,7 @@ automotive-ve-ai-skills-kit/
 | `vave-cost-opportunity` | Structure BOM, quotation, benchmarking, and meeting data into a VAVE opportunity register draft. |
 | `ve-manual-writer` | Convert workflow notes into SOPs, FAQs, checklists, and best-practice documents. |
 | `skill-adoption-feedback` | Analyze Skill usage, user feedback, productivity impact, and iteration priorities. |
+| `ve-evidence-auditor` | Audit resume, portfolio, release, and report claims against evidence links and honest wording boundaries. |
 
 ## Scripts
 
@@ -78,11 +84,18 @@ Check whether BOM and quotation rows are ready for AI-assisted VAVE drafting:
 python scripts/check_bom_quote_readiness.py examples/bom_quote_readiness.csv
 ```
 
+Generate an evidence-backed claim matrix:
+
+```bash
+python scripts/generate_evidence_matrix.py examples/evidence_claims.csv
+```
+
 Example outputs:
 
 - [Skill candidate ranking](./examples/output/skill_candidate_ranking.md)
 - [Adoption report](./examples/output/adoption_report.md)
 - [BOM and quotation readiness report](./examples/output/bom_quote_readiness_report.md)
+- [Evidence claim matrix](./examples/output/evidence_claim_matrix.md)
 
 Run tests:
 
