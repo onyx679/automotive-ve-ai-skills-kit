@@ -6,6 +6,8 @@ AI Skill templates and lightweight workflow tools for automotive value engineeri
 
 This repository is a portfolio-grade, non-confidential demo. It does not contain proprietary data from Seres, suppliers, or any vehicle program.
 
+Portfolio page: https://onyx679.github.io/automotive-ve-ai-skills-kit/
+
 ## Why This Exists
 
 Automotive value engineering teams handle repeated, document-heavy workflows:

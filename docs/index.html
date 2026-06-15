@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portfolio evidence page for Automotive VE AI Skills Kit, a non-confidential AI Skills project for automotive value engineering workflows."
+    />
+    <title>Automotive VE AI Skills Kit</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Project navigation">
+      <a class="brand" href="#top" aria-label="Automotive VE AI Skills Kit home">
+        <span class="brand-mark" aria-hidden="true">VE</span>
+        <span>Automotive VE AI Skills Kit</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#evidence">Evidence</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#contributions">PRs</a>
+        <a href="#boundaries">Boundaries</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <h1>Automotive VE AI Skills Kit</h1>
+            <p class="lead">
+              A non-confidential portfolio project that converts automotive value engineering
+              workflows into reusable AI Skills, scripts, reports, and human-review guardrails.
+            </p>
+            <div class="hero-actions" aria-label="Primary evidence links">
+              <a class="button primary" href="https://github.com/onyx679/automotive-ve-ai-skills-kit/releases/tag/v0.2.0">v0.2.0 Release</a>
+              <a class="button" href="https://github.com/onyx679/automotive-ve-ai-skills-kit">GitHub Project</a>
+              <a class="button" href="https://github.com/anthropics/skills/pull/1319">Anthropic PR #1319</a>
+            </div>
+          </div>
+
+          <div class="hero-proof" aria-label="Project proof summary">
+            <img
+              class="ci-badge"
+              src="https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml/badge.svg"
+              alt="GitHub Actions test status"
+            />
+            <dl class="proof-grid">
+              <div>
+                <dt>4</dt>
+                <dd>AI Skills</dd>
+              </div>
+              <div>
+                <dt>3</dt>
+                <dd>Python CLI</dd>
+              </div>
+              <div>
+                <dt>7</dt>
+                <dd>Unit tests</dd>
+              </div>
+              <div>
+                <dt>3</dt>
+                <dd>External PRs</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section id="evidence" class="section">
+        <div class="section-inner">
+          <div class="section-heading">
+            <h2>What was built</h2>
+            <p>
+              The project is designed as a proof of work for an AI productivity BP / Skill product
+              manager working with an automotive value engineering team.
+            </p>
+          </div>
+          <div class="feature-list">
+            <article>
+              <h3>Reusable Skills</h3>
+              <p>
+                Four SKILL.md workflows cover scenario mining, VAVE opportunity drafting,
+                manual writing, and adoption feedback analysis.
+              </p>
+            </article>
+            <article>
+              <h3>Workflow Scripts</h3>
+              <p>
+                Three Python CLI tools score Skill candidates, generate adoption reports, and check
+                whether BOM or quotation rows are ready for AI-assisted drafting.
+              </p>
+            </article>
+            <article>
+              <h3>Release Quality</h3>
+              <p>
+                v0.2.0 includes sample CSV inputs, generated Markdown outputs, 7 unit tests, and
+                GitHub Actions validation on both main and tag builds.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="workflow" class="section band">
+        <div class="section-inner">
+          <div class="section-heading">
+            <h2>Workflow evidence</h2>
+            <p>
+              The operating model starts with input readiness and ends with adoption measurement.
+              AI prepares structured drafts; business owners keep final authority.
+            </p>
+          </div>
+          <ol class="timeline">
+            <li>
+              <span>0</span>
+              <div>
+                <h3>Check input readiness</h3>
+                <p>Block rows missing supplier, annual volume, tax status, or evidence source.</p>
+              </div>
+            </li>
+            <li>
+              <span>1</span>
+              <div>
+                <h3>Mine the workflow</h3>
+                <p>Extract repeated tasks, inputs, outputs, rework causes, and sensitive boundaries.</p>
+              </div>
+            </li>
+            <li>
+              <span>2</span>
+              <div>
+                <h3>Score candidates</h3>
+                <p>Rank scenarios by frequency, time cost, standardization, risk, data, benefit, and user willingness.</p>
+              </div>
+            </li>
+            <li>
+              <span>3</span>
+              <div>
+                <h3>Productize the Skill</h3>
+                <p>Write triggers, inputs, steps, output templates, review gates, and success metrics.</p>
+              </div>
+            </li>
+            <li>
+              <span>4</span>
+              <div>
+                <h3>Measure adoption</h3>
+                <p>Track usage, preparation time, rework, field completeness, and feedback-driven fixes.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="contributions" class="section">
+        <div class="section-inner">
+          <div class="section-heading">
+            <h2>Open-source contributions</h2>
+            <p>
+              These are submitted PRs, not merged claims. They are listed as open evidence only.
+            </p>
+          </div>
+          <div class="contribution-table" role="table" aria-label="Open-source pull requests">
+            <div class="table-row table-head" role="row">
+              <span role="columnheader">Repository</span>
+              <span role="columnheader">PR</span>
+              <span role="columnheader">Contribution</span>
+              <span role="columnheader">Status</span>
+            </div>
+            <a class="table-row" role="row" href="https://github.com/ComposioHQ/awesome-claude-skills/pull/1081">
+              <span role="cell">ComposioHQ/awesome-claude-skills</span>
+              <span role="cell">#1081</span>
+              <span role="cell">Adds Automotive VE AI Skills Kit skill entry.</span>
+              <span role="cell">OPEN</span>
+            </a>
+            <a class="table-row" role="row" href="https://github.com/daymade/claude-code-skills/pull/88">
+              <span role="cell">daymade/claude-code-skills</span>
+              <span role="cell">#88</span>
+              <span role="cell">Adds installable marketplace skill and methodology reference.</span>
+              <span role="cell">OPEN</span>
+            </a>
+            <a class="table-row" role="row" href="https://github.com/anthropics/skills/pull/1319">
+              <span role="cell">anthropics/skills</span>
+              <span role="cell">#1319</span>
+              <span role="cell">Fixes skill-creator UTF-8 file I/O on Windows.</span>
+              <span role="cell">OPEN</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="section-inner split">
+          <div>
+            <h2>30-day landing plan</h2>
+            <p>
+              The project maps directly to an internal AI BP onboarding plan: learn the workflow,
+              select low-risk pilots, ship Skill MVPs, and measure adoption before scaling.
+            </p>
+          </div>
+          <div class="plan-grid">
+            <div><strong>Week 1</strong><span>Role interviews and scenario map</span></div>
+            <div><strong>Week 2</strong><span>Skill backlog and pilot selection</span></div>
+            <div><strong>Week 3</strong><span>Skill MVP and user trial</span></div>
+            <div><strong>Week 4</strong><span>Adoption report and iteration plan</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="boundaries" class="section">
+        <div class="section-inner boundary">
+          <h2>Honest boundaries</h2>
+          <ul>
+            <li>This is a non-confidential portfolio project, not a Seres internal project.</li>
+            <li>It does not use real supplier quotes, vehicle BOM data, or proprietary programs.</li>
+            <li>Open-source PRs are submitted and review-pending; they are not claimed as merged.</li>
+            <li>AI output is positioned as structured draft preparation, not final cost, supplier, quality, or engineering approval.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Automotive VE AI Skills Kit</span>
+      <a href="https://github.com/onyx679/automotive-ve-ai-skills-kit">View repository</a>
+    </footer>
+  </body>
+</html>
