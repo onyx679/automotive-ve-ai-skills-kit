@@ -1,0 +1,7 @@
+name,role,pain,frequency,time_cost,standardization,risk_control,data_availability,visible_benefit,user_willingness
+VAVE opportunity register draft,Cost analyst / VAVE engineer,Opportunity descriptions are inconsistent and missing evidence,5,5,4,3,4,5,4
+Meeting action item extraction,VAVE project manager,Action items are scattered across notes and chat messages,5,4,5,4,5,4,4
+BOM and quotation normalization,Cost analyst,Input formats differ across suppliers and projects,5,4,4,3,4,4,4
+SOP and FAQ generation,Knowledge manager,Best practices are not reusable for new joiners,3,3,5,5,4,3,3
+Final opportunity prioritization,Department manager,Priority decisions require expert judgment and trade-offs,3,4,2,1,3,4,3
+

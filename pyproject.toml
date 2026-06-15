@@ -1,0 +1,13 @@
+[project]
+name = "automotive-ve-ai-skills-kit"
+version = "0.1.0"
+description = "AI Skill templates and workflow scoring tools for automotive value engineering productivity scenarios."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Zhang Wenhao" }]
+keywords = ["value-engineering", "vave", "ai-skills", "automotive", "workflow"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

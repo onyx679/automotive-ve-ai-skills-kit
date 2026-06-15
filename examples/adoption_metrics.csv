@@ -1,0 +1,7 @@
+metric,before,after,unit,direction,note
+Draft preparation time,90,45,min,decrease,Estimated time to prepare one opportunity register draft
+Field completeness,68,91,%,increase,Required opportunity-register fields completed
+Rework count,3,1,,decrease,Average formatting or missing-field rework loops per draft
+Missing confirmation questions,4,1,,decrease,Unlisted open questions found during review
+Repeat users,0,3,,increase,Demo users who reused the workflow
+
