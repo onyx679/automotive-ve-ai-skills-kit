@@ -84,6 +84,16 @@ For cost and supplier-sensitive workflows, this kit separates conclusions into:
 
 The AI assistant should never fabricate cost, supplier, quality, or engineering feasibility conclusions.
 
+## Methodology
+
+See [docs/methodology.md](./docs/methodology.md) for the five-step workflow:
+
+1. Mine the workflow.
+2. Score Skill candidates.
+3. Productize the Skill.
+4. Preserve human review.
+5. Measure adoption.
+
 ## Portfolio Positioning
 
 This project supports a candidate profile such as:
