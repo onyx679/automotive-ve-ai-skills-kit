@@ -22,6 +22,7 @@ This kit shows how those workflows can be converted into reusable AI agent Skill
 
 ```text
 automotive-ve-ai-skills-kit/
+  CONTRIBUTING.md
   skills/
     ve-scenario-miner/
     vave-cost-opportunity/
