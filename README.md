@@ -1,5 +1,7 @@
 # Automotive VE AI Skills Kit
 
+[![test](https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml/badge.svg)](https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml)
+
 AI Skill templates and lightweight workflow tools for automotive value engineering (VE/VAVE) productivity scenarios.
 
 This repository is a portfolio-grade, non-confidential demo. It does not contain proprietary data from Seres, suppliers, or any vehicle program.
@@ -60,6 +62,11 @@ Generate an adoption report:
 python scripts/generate_adoption_report.py examples/adoption_metrics.csv
 ```
 
+Example outputs:
+
+- [Skill candidate ranking](./examples/output/skill_candidate_ranking.md)
+- [Adoption report](./examples/output/adoption_report.md)
+
 Run tests:
 
 ```bash
@@ -88,4 +95,3 @@ It demonstrates business process analysis, AI Skill design, VAVE workflow unders
 ## License
 
 MIT
-
