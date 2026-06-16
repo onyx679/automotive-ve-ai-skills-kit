@@ -152,6 +152,15 @@ AI 助手不能编造成本、供应商、质量或工程可行性结论。
 
 补充电商流程工具包展示同一套工作方式在另一个业务场景中的迁移：把商品、订单、库存、客服和复盘工作标准化为 CSV 输入、Markdown 风险周报、行动项队列、测试和人工审核边界。它用于证明流程提效方法可迁移，不用于冒充汽车领域业务经历。
 
+## 核查链接
+
+- 主项目仓库：https://github.com/onyx679/automotive-ve-ai-skills-kit
+- 主项目 release：https://github.com/onyx679/automotive-ve-ai-skills-kit/releases/tag/v0.4.0
+- 主项目测试 workflow：https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml
+- 补充项目仓库：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit
+- 补充项目 release：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.1
+- 补充项目测试 workflow：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml
+
 ## License
 
 MIT

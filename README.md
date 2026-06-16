@@ -157,6 +157,15 @@ It demonstrates business process analysis, AI Skill design, VAVE workflow unders
 
 The supplementary ecommerce workflow kit shows the same operating pattern in a different business context: product, order, inventory, support, and review work are standardized into CSV inputs, a Markdown risk report, an action queue, tests, and clear human-review boundaries. It is included as transferable operating evidence, not as vehicle-domain evidence.
 
+## Verification Links
+
+- Main repository: https://github.com/onyx679/automotive-ve-ai-skills-kit
+- Main release: https://github.com/onyx679/automotive-ve-ai-skills-kit/releases/tag/v0.4.0
+- Main test workflow: https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml
+- Supplement repository: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit
+- Supplement release: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.1
+- Supplement test workflow: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml
+
 ## License
 
 MIT

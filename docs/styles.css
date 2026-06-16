@@ -375,6 +375,36 @@ a.table-row:hover {
   margin-top: 6px;
 }
 
+.verification-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+
+.verification-grid a {
+  display: grid;
+  gap: 8px;
+  min-height: 134px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #ffffff;
+}
+
+.verification-grid a:hover {
+  border-color: var(--teal);
+}
+
+.verification-grid strong,
+.verification-grid span {
+  display: block;
+}
+
+.verification-grid span {
+  color: var(--muted);
+  font-size: 14px;
+}
+
 .plan-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -451,6 +481,7 @@ a.table-row:hover {
   .hero-inner,
   .section-heading,
   .feature-list,
+  .verification-grid,
   .split {
     grid-template-columns: 1fr;
   }
