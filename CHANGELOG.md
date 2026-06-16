@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.4.4 - 2026-06-17
+
+- Point ecommerce supplement links to the fixed `v0.1.4` release.
+- Keep the portfolio page, bilingual README files, and verification section aligned with the latest ecommerce evidence-validation update.
+
 ## v0.4.3 - 2026-06-16
 
 - Align portfolio-page evidence wording with the current 18-test suite.
