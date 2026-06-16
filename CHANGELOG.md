@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.4.2 - 2026-06-16
+
+- Default the GitHub Pages portfolio page to English while keeping Chinese available through the language switcher.
+- Add page-level tests that verify the default language and Chinese option are present.
+- Update verification links to the current main and ecommerce portfolio releases.
+
 ## v0.4.1 - 2026-06-16
 
 - Add a reviewer-facing case study that explains the workflow-notes-to-AI-Skills conversion method.
