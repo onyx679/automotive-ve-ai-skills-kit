@@ -209,6 +209,12 @@ a {
   font-size: 14px;
 }
 
+.proof-note {
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
 .section {
   padding: 86px 0;
 }
@@ -350,6 +356,16 @@ a.table-row:hover {
 
 .supplement-card span {
   color: var(--muted);
+}
+
+.supplement-points {
+  margin: 2px 0 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.supplement-points li + li {
+  margin-top: 8px;
 }
 
 .supplement-actions {

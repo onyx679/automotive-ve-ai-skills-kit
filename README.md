@@ -10,6 +10,8 @@ This repository is a portfolio-grade, non-confidential demo. It does not contain
 
 Portfolio page: https://onyx679.github.io/automotive-ve-ai-skills-kit/
 
+Supplementary ecommerce workflow demo: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit
+
 ## Why This Exists
 
 Automotive value engineering teams handle repeated, document-heavy workflows:
@@ -152,6 +154,8 @@ This project supports a candidate profile such as:
 > AI productivity BP / Skill product manager for automotive value engineering teams.
 
 It demonstrates business process analysis, AI Skill design, VAVE workflow understanding, documentation discipline, and adoption measurement.
+
+The supplementary ecommerce workflow kit shows the same operating pattern in a different business context: product, order, inventory, support, and review work are standardized into CSV inputs, a Markdown risk report, an action queue, tests, and clear human-review boundaries. It is included as transferable operating evidence, not as vehicle-domain evidence.
 
 ## License
 

@@ -10,6 +10,8 @@
 
 作品页：https://onyx679.github.io/automotive-ve-ai-skills-kit/
 
+补充电商流程 demo：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit
+
 ## 为什么做这个项目
 
 汽车价值工程团队有大量重复、文档密集型工作：
@@ -147,6 +149,8 @@ AI 助手不能编造成本、供应商、质量或工程可行性结论。
 > 面向汽车价值工程团队的 AI 提效 BP / Skill 产品经理。
 
 它展示业务流程分析、AI Skill 设计、VAVE 流程理解、文档沉淀能力和 adoption 指标设计能力。
+
+补充电商流程工具包展示同一套工作方式在另一个业务场景中的迁移：把商品、订单、库存、客服和复盘工作标准化为 CSV 输入、Markdown 风险周报、行动项队列、测试和人工审核边界。它用于证明流程提效方法可迁移，不用于冒充汽车领域业务经历。
 
 ## License
 
