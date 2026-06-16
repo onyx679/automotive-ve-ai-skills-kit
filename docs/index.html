@@ -19,12 +19,11 @@
       <nav class="nav-links" aria-label="Primary navigation">
         <a href="#evidence" data-en="Evidence" data-zh="证据">Evidence</a>
         <a href="#workflow" data-en="Workflow" data-zh="工作流">Workflow</a>
-        <a href="#contributions" data-en="PRs" data-zh="开源 PR">PRs</a>
         <a href="#boundaries" data-en="Boundaries" data-zh="边界">Boundaries</a>
       </nav>
       <div class="language-switcher" aria-label="Language">
-        <button type="button" class="language-button active" data-lang="en">EN</button>
-        <button type="button" class="language-button" data-lang="zh">中文</button>
+        <button type="button" class="language-button active" data-lang="zh">中文</button>
+        <button type="button" class="language-button" data-lang="en">EN</button>
       </div>
     </header>
 
@@ -44,7 +43,7 @@
             <div class="hero-actions" aria-label="Primary evidence links">
               <a class="button primary" href="https://github.com/onyx679/automotive-ve-ai-skills-kit/releases/tag/v0.4.0">v0.4.0 Release</a>
               <a class="button" href="https://github.com/onyx679/automotive-ve-ai-skills-kit" data-en="GitHub Project" data-zh="GitHub 项目">GitHub Project</a>
-              <a class="button" href="https://github.com/anthropics/skills/pull/1319">Anthropic PR #1319</a>
+              <a class="button" href="https://github.com/onyx679/automotive-ve-ai-skills-kit/blob/main/README.zh-CN.md" data-en="Chinese README" data-zh="中文 README">中文 README</a>
             </div>
           </div>
 
@@ -68,8 +67,8 @@
                 <dd data-en="Unit tests" data-zh="单元测试">Unit tests</dd>
               </div>
               <div>
-                <dt>5</dt>
-                <dd data-en="External PRs" data-zh="外部 PR">External PRs</dd>
+                <dt>2</dt>
+                <dd data-en="README languages" data-zh="README 语言">README 语言</dd>
               </div>
             </dl>
           </div>
@@ -191,58 +190,6 @@
         </div>
       </section>
 
-      <section id="contributions" class="section">
-        <div class="section-inner">
-          <div class="section-heading">
-            <h2 data-en="Open-source contributions" data-zh="开源贡献">Open-source contributions</h2>
-            <p
-              data-en="These are submitted PRs, not merged claims. They are listed as open evidence only."
-              data-zh="这些是已提交的 PR，不是已合并 claim；这里只作为公开证据列出。"
-            >
-              These are submitted PRs, not merged claims. They are listed as open evidence only.
-            </p>
-          </div>
-          <div class="contribution-table" role="table" aria-label="Open-source pull requests">
-            <div class="table-row table-head" role="row">
-              <span role="columnheader" data-en="Repository" data-zh="仓库">Repository</span>
-              <span role="columnheader">PR</span>
-              <span role="columnheader" data-en="Contribution" data-zh="贡献内容">Contribution</span>
-              <span role="columnheader" data-en="Status" data-zh="状态">Status</span>
-            </div>
-            <a class="table-row" role="row" href="https://github.com/ComposioHQ/awesome-claude-skills/pull/1081">
-              <span role="cell">ComposioHQ/awesome-claude-skills</span>
-              <span role="cell">#1081</span>
-              <span role="cell" data-en="Adds Automotive VE AI Skills Kit as a README-only external project entry." data-zh="按 README-only 规则加入 Automotive VE AI Skills Kit 外部项目索引。">Adds Automotive VE AI Skills Kit as a README-only external project entry.</span>
-              <span role="cell">OPEN</span>
-            </a>
-            <a class="table-row" role="row" href="https://github.com/daymade/claude-code-skills/pull/88">
-              <span role="cell">daymade/claude-code-skills</span>
-              <span role="cell">#88</span>
-              <span role="cell" data-en="Adds installable marketplace skill and methodology reference." data-zh="新增可安装 marketplace skill 和方法论 reference。">Adds installable marketplace skill and methodology reference.</span>
-              <span role="cell">OPEN</span>
-            </a>
-            <a class="table-row" role="row" href="https://github.com/anthropics/skills/pull/1319">
-              <span role="cell">anthropics/skills</span>
-              <span role="cell">#1319</span>
-              <span role="cell" data-en="Fixes skill-creator UTF-8 file I/O on Windows." data-zh="修复 skill-creator 在 Windows 下的 UTF-8 文件读写问题。">Fixes skill-creator UTF-8 file I/O on Windows.</span>
-              <span role="cell">OPEN</span>
-            </a>
-            <a class="table-row" role="row" href="https://github.com/mpm1811/applied-ai-thinking/pull/5">
-              <span role="cell">mpm1811/applied-ai-thinking</span>
-              <span role="cell">#5</span>
-              <span role="cell" data-en="Adds .skill archive frontmatter validation through GitHub Actions." data-zh="新增 .skill archive frontmatter 的 GitHub Actions 校验。">Adds .skill archive frontmatter validation through GitHub Actions.</span>
-              <span role="cell">OPEN</span>
-            </a>
-            <a class="table-row" role="row" href="https://github.com/cdcoonce/claude-workflow/pull/105">
-              <span role="cell">cdcoonce/claude-workflow</span>
-              <span role="cell">#105</span>
-              <span role="cell" data-en="Adds SKILL.md frontmatter smoke_test validation and UTF-8 preset I/O." data-zh="新增 SKILL.md frontmatter smoke_test 校验和 UTF-8 preset 读写兼容。">Adds SKILL.md frontmatter smoke_test validation and UTF-8 preset I/O.</span>
-              <span role="cell">OPEN</span>
-            </a>
-          </div>
-        </div>
-      </section>
-
       <section class="section band">
         <div class="section-inner split">
           <div>
@@ -301,7 +248,7 @@
         button.addEventListener("click", () => setLanguage(button.dataset.lang));
       });
 
-      setLanguage("en");
+      setLanguage("zh");
     </script>
   </body>
 </html>
