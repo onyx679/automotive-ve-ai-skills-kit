@@ -14,6 +14,8 @@ Supplementary ecommerce workflow demo: https://github.com/onyx679/ecommerce-ops-
 
 Case study: [From Workflow Notes to Reusable AI Skills](./docs/case-study.md)
 
+30-day landing plan: [AI BP Landing Plan](./docs/landing-plan.md)
+
 ## Why This Exists
 
 Automotive value engineering teams handle repeated, document-heavy workflows:
@@ -153,6 +155,10 @@ See [docs/methodology.md](./docs/methodology.md) for the readiness gate plus six
 
 See [docs/case-study.md](./docs/case-study.md) for a reviewer-friendly explanation of how this portfolio turns workflow notes into AI Skills, scripts, generated reports, and human-review guardrails. The case study also explains how the ecommerce supplement is used as transferable operating evidence rather than vehicle-domain evidence.
 
+## 30-Day Landing Plan
+
+See [docs/landing-plan.md](./docs/landing-plan.md) for a reviewer-friendly onboarding plan covering workflow discovery, pilot selection, Skill MVP delivery, adoption review, and evidence boundaries.
+
 ## Portfolio Positioning
 
 This project supports a candidate profile such as:
@@ -166,9 +172,10 @@ The supplementary ecommerce workflow kit shows the same operating pattern in a d
 ## Verification Links
 
 - Main repository: https://github.com/onyx679/automotive-ve-ai-skills-kit
-- Main release: https://github.com/onyx679/automotive-ve-ai-skills-kit/releases/tag/v0.4.4
+- Main release: https://github.com/onyx679/automotive-ve-ai-skills-kit/releases/tag/v0.4.5
 - Main test workflow: https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml
 - Case study: https://github.com/onyx679/automotive-ve-ai-skills-kit/blob/main/docs/case-study.md
+- 30-day landing plan: https://github.com/onyx679/automotive-ve-ai-skills-kit/blob/main/docs/landing-plan.md
 - Supplement repository: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit
 - Supplement release: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.4
 - Supplement test workflow: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml

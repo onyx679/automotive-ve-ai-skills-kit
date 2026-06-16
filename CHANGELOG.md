@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.4.5 - 2026-06-17
+
+- Add a reviewer-facing 30-day AI BP landing plan covering workflow discovery, pilot selection, Skill MVP delivery, adoption review, and evidence boundaries.
+- Link the landing plan from the portfolio page and bilingual README files.
+- Add tests to keep the landing plan and portfolio-page links visible.
+
 ## v0.4.4 - 2026-06-17
 
 - Point ecommerce supplement links to the fixed `v0.1.4` release.

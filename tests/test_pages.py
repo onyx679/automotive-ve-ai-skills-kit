@@ -20,6 +20,13 @@ class PortfolioPageTest(unittest.TestCase):
         self.assertIn('data-zh="一个不包含保密数据的作品集项目', html)
         self.assertIn("中文 README", html)
 
+    def test_page_links_landing_plan(self):
+        html = (ROOT / "docs" / "index.html").read_text(encoding="utf-8")
+
+        self.assertIn("docs/landing-plan.md", html)
+        self.assertIn("30-day landing plan", html)
+        self.assertIn("Read full plan", html)
+
 
 if __name__ == "__main__":
     unittest.main()
