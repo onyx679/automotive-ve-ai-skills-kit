@@ -1,4 +1,4 @@
-# Automotive VE AI Skills Kit
+﻿# Automotive VE AI Skills Kit
 
 [![test](https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml/badge.svg)](https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml)
 
@@ -165,7 +165,7 @@ AI 助手不能编造成本、供应商、质量或工程可行性结论。
 - 主项目测试 workflow：https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml
 - 案例说明：https://github.com/onyx679/automotive-ve-ai-skills-kit/blob/main/docs/case-study.md
 - 补充项目仓库：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit
-- 补充项目 release：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.3
+- 补充项目 release：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.4
 - 补充项目测试 workflow：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml
 
 ## License

@@ -1,4 +1,4 @@
-# Automotive VE AI Skills Kit
+﻿# Automotive VE AI Skills Kit
 
 [![test](https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml/badge.svg)](https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml)
 
@@ -170,7 +170,7 @@ The supplementary ecommerce workflow kit shows the same operating pattern in a d
 - Main test workflow: https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml
 - Case study: https://github.com/onyx679/automotive-ve-ai-skills-kit/blob/main/docs/case-study.md
 - Supplement repository: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit
-- Supplement release: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.3
+- Supplement release: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.4
 - Supplement test workflow: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml
 
 ## License
