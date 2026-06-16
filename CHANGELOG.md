@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.4.3 - 2026-06-16
+
+- Align portfolio-page evidence wording with the current 18-test suite.
+- Keep release, README, and verification links pointed at the latest reviewer-facing release.
+
 ## v0.4.2 - 2026-06-16
 
 - Default the GitHub Pages portfolio page to English while keeping Chinese available through the language switcher.
