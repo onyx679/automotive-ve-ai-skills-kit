@@ -12,6 +12,8 @@
 
 补充电商流程 demo：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit
 
+案例说明：[从业务流程笔记到可复用 AI Skills](./docs/case-study.md)
+
 ## 为什么做这个项目
 
 汽车价值工程团队有大量重复、文档密集型工作：
@@ -142,6 +144,10 @@ AI 助手不能编造成本、供应商、质量或工程可行性结论。
 5. 衡量 adoption
 6. 负责任地改造社区模式
 
+## 案例说明
+
+详见 [docs/case-study.md](./docs/case-study.md)。这份文档面向 HR 或面试官，解释本作品如何把业务流程笔记转化为 AI Skills、脚本、生成报告和人工审核边界，也说明补充电商项目只是流程提效方法的迁移证据，不是汽车领域业务经历。
+
 ## 作品集定位
 
 本项目支撑的候选人定位是：
@@ -157,6 +163,7 @@ AI 助手不能编造成本、供应商、质量或工程可行性结论。
 - 主项目仓库：https://github.com/onyx679/automotive-ve-ai-skills-kit
 - 主项目 release：https://github.com/onyx679/automotive-ve-ai-skills-kit/releases/tag/v0.4.0
 - 主项目测试 workflow：https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml
+- 案例说明：https://github.com/onyx679/automotive-ve-ai-skills-kit/blob/main/docs/case-study.md
 - 补充项目仓库：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit
 - 补充项目 release：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.1
 - 补充项目测试 workflow：https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml

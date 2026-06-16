@@ -12,6 +12,8 @@ Portfolio page: https://onyx679.github.io/automotive-ve-ai-skills-kit/
 
 Supplementary ecommerce workflow demo: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit
 
+Case study: [From Workflow Notes to Reusable AI Skills](./docs/case-study.md)
+
 ## Why This Exists
 
 Automotive value engineering teams handle repeated, document-heavy workflows:
@@ -147,6 +149,10 @@ See [docs/methodology.md](./docs/methodology.md) for the readiness gate plus six
 5. Measure adoption.
 6. Adapt community patterns responsibly.
 
+## Case Study
+
+See [docs/case-study.md](./docs/case-study.md) for a reviewer-friendly explanation of how this portfolio turns workflow notes into AI Skills, scripts, generated reports, and human-review guardrails. The case study also explains how the ecommerce supplement is used as transferable operating evidence rather than vehicle-domain evidence.
+
 ## Portfolio Positioning
 
 This project supports a candidate profile such as:
@@ -162,6 +168,7 @@ The supplementary ecommerce workflow kit shows the same operating pattern in a d
 - Main repository: https://github.com/onyx679/automotive-ve-ai-skills-kit
 - Main release: https://github.com/onyx679/automotive-ve-ai-skills-kit/releases/tag/v0.4.0
 - Main test workflow: https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml
+- Case study: https://github.com/onyx679/automotive-ve-ai-skills-kit/blob/main/docs/case-study.md
 - Supplement repository: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit
 - Supplement release: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/releases/tag/v0.1.1
 - Supplement test workflow: https://github.com/onyx679/ecommerce-ops-ai-workflow-kit/actions/workflows/test.yml
