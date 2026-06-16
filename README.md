@@ -2,6 +2,8 @@
 
 [![test](https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml/badge.svg)](https://github.com/onyx679/automotive-ve-ai-skills-kit/actions/workflows/test.yml)
 
+[English](./README.md) | [中文](./README.zh-CN.md)
+
 AI Skill templates and lightweight workflow tools for automotive value engineering (VE/VAVE) productivity scenarios.
 
 This repository is a portfolio-grade, non-confidential demo. It does not contain proprietary data from Seres, suppliers, or any vehicle program.

@@ -17,11 +17,15 @@
         <span>Automotive VE AI Skills Kit</span>
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#evidence">Evidence</a>
-        <a href="#workflow">Workflow</a>
-        <a href="#contributions">PRs</a>
-        <a href="#boundaries">Boundaries</a>
+        <a href="#evidence" data-en="Evidence" data-zh="证据">Evidence</a>
+        <a href="#workflow" data-en="Workflow" data-zh="工作流">Workflow</a>
+        <a href="#contributions" data-en="PRs" data-zh="开源 PR">PRs</a>
+        <a href="#boundaries" data-en="Boundaries" data-zh="边界">Boundaries</a>
       </nav>
+      <div class="language-switcher" aria-label="Language">
+        <button type="button" class="language-button active" data-lang="en">EN</button>
+        <button type="button" class="language-button" data-lang="zh">中文</button>
+      </div>
     </header>
 
     <main id="top">
@@ -29,13 +33,17 @@
         <div class="hero-inner">
           <div class="hero-copy">
             <h1>Automotive VE AI Skills Kit</h1>
-            <p class="lead">
+            <p
+              class="lead"
+              data-en="A non-confidential portfolio project that converts automotive value engineering workflows into reusable AI Skills, scripts, reports, and human-review guardrails."
+              data-zh="一个不包含保密数据的作品集项目，将汽车价值工程流程转化为可复用的 AI Skills、脚本、报告和人工审核边界。"
+            >
               A non-confidential portfolio project that converts automotive value engineering
               workflows into reusable AI Skills, scripts, reports, and human-review guardrails.
             </p>
             <div class="hero-actions" aria-label="Primary evidence links">
               <a class="button primary" href="https://github.com/onyx679/automotive-ve-ai-skills-kit/releases/tag/v0.4.0">v0.4.0 Release</a>
-              <a class="button" href="https://github.com/onyx679/automotive-ve-ai-skills-kit">GitHub Project</a>
+              <a class="button" href="https://github.com/onyx679/automotive-ve-ai-skills-kit" data-en="GitHub Project" data-zh="GitHub 项目">GitHub Project</a>
               <a class="button" href="https://github.com/anthropics/skills/pull/1319">Anthropic PR #1319</a>
             </div>
           </div>
@@ -49,19 +57,19 @@
             <dl class="proof-grid">
               <div>
                 <dt>6</dt>
-                <dd>AI Skills</dd>
+                <dd data-en="AI Skills" data-zh="AI Skills">AI Skills</dd>
               </div>
               <div>
                 <dt>5</dt>
-                <dd>Python CLI</dd>
+                <dd data-en="Python CLI" data-zh="Python CLI">Python CLI</dd>
               </div>
               <div>
                 <dt>16</dt>
-                <dd>Unit tests</dd>
+                <dd data-en="Unit tests" data-zh="单元测试">Unit tests</dd>
               </div>
               <div>
-                <dt>3</dt>
-                <dd>External PRs</dd>
+                <dt>5</dt>
+                <dd data-en="External PRs" data-zh="外部 PR">External PRs</dd>
               </div>
             </dl>
           </div>
@@ -71,33 +79,44 @@
       <section id="evidence" class="section">
         <div class="section-inner">
           <div class="section-heading">
-            <h2>What was built</h2>
-            <p>
+            <h2 data-en="What was built" data-zh="已完成内容">What was built</h2>
+            <p
+              data-en="The project is designed as a proof of work for an AI productivity BP / Skill product manager working with an automotive value engineering team."
+              data-zh="这个项目用于证明候选人具备面向汽车价值工程团队的 AI 提效 BP / Skill 产品经理能力。"
+            >
               The project is designed as a proof of work for an AI productivity BP / Skill product
               manager working with an automotive value engineering team.
             </p>
           </div>
           <div class="feature-list">
             <article>
-              <h3>Reusable Skills</h3>
-              <p>
+              <h3 data-en="Reusable Skills" data-zh="可复用 Skills">Reusable Skills</h3>
+              <p
+                data-en="Six SKILL.md workflows cover scenario mining, VAVE opportunity drafting, manual writing, adoption feedback analysis, evidence-claim auditing, and community Skill benchmark adaptation."
+                data-zh="6 个 SKILL.md 工作流覆盖场景挖掘、VAVE 机会起草、手册生成、adoption 反馈分析、证据 claim 审计和社区 Skill benchmark 改造。"
+              >
                 Six SKILL.md workflows cover scenario mining, VAVE opportunity drafting,
                 manual writing, adoption feedback analysis, evidence-claim auditing, and
                 community Skill benchmark adaptation.
               </p>
             </article>
             <article>
-              <h3>Workflow Scripts</h3>
-              <p>
+              <h3 data-en="Workflow Scripts" data-zh="工作流脚本">Workflow Scripts</h3>
+              <p
+                data-en="Five Python CLI tools score Skill candidates, generate adoption reports, check BOM or quotation readiness, audit portfolio claims, and rank which community Skill patterns can be responsibly adapted into VE workflows."
+                data-zh="5 个 Python CLI 工具用于候选场景评分、生成 adoption report、检查 BOM/报价就绪度、审计作品集 claim，并评估哪些社区 Skill 模式适合负责任地改造成价值工程工作流。"
+              >
                 Five Python CLI tools score Skill candidates, generate adoption reports, check
-                whether BOM or quotation rows are ready for AI-assisted drafting, audit
-                portfolio claims, and rank which community Skill patterns can be responsibly
-                adapted into VE workflows.
+                BOM or quotation readiness, audit portfolio claims, and rank which community
+                Skill patterns can be responsibly adapted into VE workflows.
               </p>
             </article>
             <article>
-              <h3>Release Quality</h3>
-              <p>
+              <h3 data-en="Release Quality" data-zh="发布质量">Release Quality</h3>
+              <p
+                data-en="v0.4.0 includes sample CSV inputs, generated Markdown outputs, 16 unit tests, and GitHub Actions validation on both main and tag builds."
+                data-zh="v0.4.0 包含 CSV 示例输入、脚本生成的 Markdown 输出、16 个单元测试，以及 main 和 tag 构建上的 GitHub Actions 校验。"
+              >
                 v0.4.0 includes sample CSV inputs, generated Markdown outputs, 16 unit tests, and
                 GitHub Actions validation on both main and tag builds.
               </p>
@@ -109,8 +128,11 @@
       <section id="workflow" class="section band">
         <div class="section-inner">
           <div class="section-heading">
-            <h2>Workflow evidence</h2>
-            <p>
+            <h2 data-en="Workflow evidence" data-zh="工作流证据">Workflow evidence</h2>
+            <p
+              data-en="The operating model starts with input readiness and ends with adoption measurement. AI prepares structured drafts; business owners keep final authority."
+              data-zh="运行模型从输入就绪度检查开始，以 adoption 指标复盘结束。AI 负责结构化草稿，业务负责人保留最终判断权。"
+            >
               The operating model starts with input readiness and ends with adoption measurement.
               AI prepares structured drafts; business owners keep final authority.
             </p>
@@ -119,50 +141,50 @@
             <li>
               <span>0</span>
               <div>
-                <h3>Check input readiness</h3>
-                <p>Block rows missing supplier, annual volume, tax status, or evidence source.</p>
+                <h3 data-en="Check input readiness" data-zh="检查输入就绪度">Check input readiness</h3>
+                <p data-en="Block rows missing supplier, annual volume, tax status, or evidence source." data-zh="拦截缺少供应商、年用量、税费状态或证据来源的行。">Block rows missing supplier, annual volume, tax status, or evidence source.</p>
               </div>
             </li>
             <li>
               <span>1</span>
               <div>
-                <h3>Mine the workflow</h3>
-                <p>Extract repeated tasks, inputs, outputs, rework causes, and sensitive boundaries.</p>
+                <h3 data-en="Mine the workflow" data-zh="挖掘业务流程">Mine the workflow</h3>
+                <p data-en="Extract repeated tasks, inputs, outputs, rework causes, and sensitive boundaries." data-zh="提取重复任务、输入、输出、返工原因和敏感边界。">Extract repeated tasks, inputs, outputs, rework causes, and sensitive boundaries.</p>
               </div>
             </li>
             <li>
               <span>2</span>
               <div>
-                <h3>Score candidates</h3>
-                <p>Rank scenarios by frequency, time cost, standardization, risk, data, benefit, and user willingness.</p>
+                <h3 data-en="Score candidates" data-zh="评分候选场景">Score candidates</h3>
+                <p data-en="Rank scenarios by frequency, time cost, standardization, risk, data, benefit, and user willingness." data-zh="按频次、耗时、标准化程度、风险、数据、收益和用户意愿排序候选场景。">Rank scenarios by frequency, time cost, standardization, risk, data, benefit, and user willingness.</p>
               </div>
             </li>
             <li>
               <span>3</span>
               <div>
-                <h3>Productize the Skill</h3>
-                <p>Write triggers, inputs, steps, output templates, review gates, and success metrics.</p>
+                <h3 data-en="Productize the Skill" data-zh="产品化 Skill">Productize the Skill</h3>
+                <p data-en="Write triggers, inputs, steps, output templates, review gates, and success metrics." data-zh="编写触发场景、输入、步骤、输出模板、审核门和成功指标。">Write triggers, inputs, steps, output templates, review gates, and success metrics.</p>
               </div>
             </li>
             <li>
               <span>4</span>
               <div>
-                <h3>Measure adoption</h3>
-                <p>Track usage, preparation time, rework, field completeness, and feedback-driven fixes.</p>
+                <h3 data-en="Measure adoption" data-zh="衡量 adoption">Measure adoption</h3>
+                <p data-en="Track usage, preparation time, rework, field completeness, and feedback-driven fixes." data-zh="跟踪使用次数、准备时间、返工、字段完整率和基于反馈的修复项。">Track usage, preparation time, rework, field completeness, and feedback-driven fixes.</p>
               </div>
             </li>
             <li>
               <span>5</span>
               <div>
-                <h3>Audit claims</h3>
-                <p>Link every public claim to evidence status, source strength, safe wording, and honest boundaries.</p>
+                <h3 data-en="Audit claims" data-zh="审计 claim">Audit claims</h3>
+                <p data-en="Link every public claim to evidence status, source strength, safe wording, and honest boundaries." data-zh="把每个公开 claim 关联到证据状态、来源强度、安全表述和诚实边界。">Link every public claim to evidence status, source strength, safe wording, and honest boundaries.</p>
               </div>
             </li>
             <li>
               <span>6</span>
               <div>
-                <h3>Adapt community patterns</h3>
-                <p>Benchmark public Skill structures, rewrite domain logic for VE, and keep attribution boundaries visible.</p>
+                <h3 data-en="Adapt community patterns" data-zh="改造社区模式">Adapt community patterns</h3>
+                <p data-en="Benchmark public Skill structures, rewrite domain logic for VE, and keep attribution boundaries visible." data-zh="对公开 Skill 结构做 benchmark，重写价值工程领域逻辑，并保留来源和改造边界。">Benchmark public Skill structures, rewrite domain logic for VE, and keep attribution boundaries visible.</p>
               </div>
             </li>
           </ol>
@@ -172,34 +194,49 @@
       <section id="contributions" class="section">
         <div class="section-inner">
           <div class="section-heading">
-            <h2>Open-source contributions</h2>
-            <p>
+            <h2 data-en="Open-source contributions" data-zh="开源贡献">Open-source contributions</h2>
+            <p
+              data-en="These are submitted PRs, not merged claims. They are listed as open evidence only."
+              data-zh="这些是已提交的 PR，不是已合并 claim；这里只作为公开证据列出。"
+            >
               These are submitted PRs, not merged claims. They are listed as open evidence only.
             </p>
           </div>
           <div class="contribution-table" role="table" aria-label="Open-source pull requests">
             <div class="table-row table-head" role="row">
-              <span role="columnheader">Repository</span>
+              <span role="columnheader" data-en="Repository" data-zh="仓库">Repository</span>
               <span role="columnheader">PR</span>
-              <span role="columnheader">Contribution</span>
-              <span role="columnheader">Status</span>
+              <span role="columnheader" data-en="Contribution" data-zh="贡献内容">Contribution</span>
+              <span role="columnheader" data-en="Status" data-zh="状态">Status</span>
             </div>
             <a class="table-row" role="row" href="https://github.com/ComposioHQ/awesome-claude-skills/pull/1081">
               <span role="cell">ComposioHQ/awesome-claude-skills</span>
               <span role="cell">#1081</span>
-              <span role="cell">Adds Automotive VE AI Skills Kit skill entry.</span>
+              <span role="cell" data-en="Adds Automotive VE AI Skills Kit as a README-only external project entry." data-zh="按 README-only 规则加入 Automotive VE AI Skills Kit 外部项目索引。">Adds Automotive VE AI Skills Kit as a README-only external project entry.</span>
               <span role="cell">OPEN</span>
             </a>
             <a class="table-row" role="row" href="https://github.com/daymade/claude-code-skills/pull/88">
               <span role="cell">daymade/claude-code-skills</span>
               <span role="cell">#88</span>
-              <span role="cell">Adds installable marketplace skill and methodology reference.</span>
+              <span role="cell" data-en="Adds installable marketplace skill and methodology reference." data-zh="新增可安装 marketplace skill 和方法论 reference。">Adds installable marketplace skill and methodology reference.</span>
               <span role="cell">OPEN</span>
             </a>
             <a class="table-row" role="row" href="https://github.com/anthropics/skills/pull/1319">
               <span role="cell">anthropics/skills</span>
               <span role="cell">#1319</span>
-              <span role="cell">Fixes skill-creator UTF-8 file I/O on Windows.</span>
+              <span role="cell" data-en="Fixes skill-creator UTF-8 file I/O on Windows." data-zh="修复 skill-creator 在 Windows 下的 UTF-8 文件读写问题。">Fixes skill-creator UTF-8 file I/O on Windows.</span>
+              <span role="cell">OPEN</span>
+            </a>
+            <a class="table-row" role="row" href="https://github.com/mpm1811/applied-ai-thinking/pull/5">
+              <span role="cell">mpm1811/applied-ai-thinking</span>
+              <span role="cell">#5</span>
+              <span role="cell" data-en="Adds .skill archive frontmatter validation through GitHub Actions." data-zh="新增 .skill archive frontmatter 的 GitHub Actions 校验。">Adds .skill archive frontmatter validation through GitHub Actions.</span>
+              <span role="cell">OPEN</span>
+            </a>
+            <a class="table-row" role="row" href="https://github.com/cdcoonce/claude-workflow/pull/105">
+              <span role="cell">cdcoonce/claude-workflow</span>
+              <span role="cell">#105</span>
+              <span role="cell" data-en="Adds SKILL.md frontmatter smoke_test validation and UTF-8 preset I/O." data-zh="新增 SKILL.md frontmatter smoke_test 校验和 UTF-8 preset 读写兼容。">Adds SKILL.md frontmatter smoke_test validation and UTF-8 preset I/O.</span>
               <span role="cell">OPEN</span>
             </a>
           </div>
@@ -209,29 +246,32 @@
       <section class="section band">
         <div class="section-inner split">
           <div>
-            <h2>30-day landing plan</h2>
-            <p>
+            <h2 data-en="30-day landing plan" data-zh="30 天落地计划">30-day landing plan</h2>
+            <p
+              data-en="The project maps directly to an internal AI BP onboarding plan: learn the workflow, select low-risk pilots, ship Skill MVPs, and measure adoption before scaling."
+              data-zh="项目可直接映射为 AI BP 入职计划：先理解流程，选择低风险试点，交付 Skill MVP，再用 adoption 数据决定是否扩大。"
+            >
               The project maps directly to an internal AI BP onboarding plan: learn the workflow,
               select low-risk pilots, ship Skill MVPs, and measure adoption before scaling.
             </p>
           </div>
           <div class="plan-grid">
-            <div><strong>Week 1</strong><span>Role interviews and scenario map</span></div>
-            <div><strong>Week 2</strong><span>Skill backlog and pilot selection</span></div>
-            <div><strong>Week 3</strong><span>Skill MVP and user trial</span></div>
-            <div><strong>Week 4</strong><span>Adoption report and iteration plan</span></div>
+            <div><strong data-en="Week 1" data-zh="第 1 周">Week 1</strong><span data-en="Role interviews and scenario map" data-zh="角色访谈和场景地图">Role interviews and scenario map</span></div>
+            <div><strong data-en="Week 2" data-zh="第 2 周">Week 2</strong><span data-en="Skill backlog and pilot selection" data-zh="Skill backlog 和试点选择">Skill backlog and pilot selection</span></div>
+            <div><strong data-en="Week 3" data-zh="第 3 周">Week 3</strong><span data-en="Skill MVP and user trial" data-zh="Skill MVP 和用户试用">Skill MVP and user trial</span></div>
+            <div><strong data-en="Week 4" data-zh="第 4 周">Week 4</strong><span data-en="Adoption report and iteration plan" data-zh="Adoption report 和迭代计划">Adoption report and iteration plan</span></div>
           </div>
         </div>
       </section>
 
       <section id="boundaries" class="section">
         <div class="section-inner boundary">
-          <h2>Honest boundaries</h2>
+          <h2 data-en="Honest boundaries" data-zh="诚实边界">Honest boundaries</h2>
           <ul>
-            <li>This is a non-confidential portfolio project, not a Seres internal project.</li>
-            <li>It does not use real supplier quotes, vehicle BOM data, or proprietary programs.</li>
-            <li>Open-source PRs are submitted and review-pending; they are not claimed as merged.</li>
-            <li>AI output is positioned as structured draft preparation, not final cost, supplier, quality, or engineering approval.</li>
+            <li data-en="This is a non-confidential portfolio project, not a Seres internal project." data-zh="这是不包含保密数据的作品集项目，不是赛力斯内部项目。">This is a non-confidential portfolio project, not a Seres internal project.</li>
+            <li data-en="It does not use real supplier quotes, vehicle BOM data, or proprietary programs." data-zh="项目没有使用真实供应商报价、真实整车 BOM 或任何专有车型项目资料。">It does not use real supplier quotes, vehicle BOM data, or proprietary programs.</li>
+            <li data-en="Open-source PRs are submitted and review-pending; they are not claimed as merged." data-zh="开源 PR 是已提交、待 review 状态，不声称已经合并。">Open-source PRs are submitted and review-pending; they are not claimed as merged.</li>
+            <li data-en="AI output is positioned as structured draft preparation, not final cost, supplier, quality, or engineering approval." data-zh="AI 输出定位为结构化草稿准备，不替代最终成本、供应商、质量或工程审批。">AI output is positioned as structured draft preparation, not final cost, supplier, quality, or engineering approval.</li>
           </ul>
         </div>
       </section>
@@ -239,7 +279,29 @@
 
     <footer class="site-footer">
       <span>Automotive VE AI Skills Kit</span>
-      <a href="https://github.com/onyx679/automotive-ve-ai-skills-kit">View repository</a>
+      <a href="https://github.com/onyx679/automotive-ve-ai-skills-kit" data-en="View repository" data-zh="查看仓库">View repository</a>
     </footer>
+
+    <script>
+      const buttons = document.querySelectorAll(".language-button");
+      const translatable = document.querySelectorAll("[data-en][data-zh]");
+
+      function setLanguage(lang) {
+        document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+        translatable.forEach((node) => {
+          node.textContent = node.dataset[lang];
+        });
+        buttons.forEach((button) => {
+          button.classList.toggle("active", button.dataset.lang === lang);
+          button.setAttribute("aria-pressed", String(button.dataset.lang === lang));
+        });
+      }
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => setLanguage(button.dataset.lang));
+      });
+
+      setLanguage("en");
+    </script>
   </body>
 </html>

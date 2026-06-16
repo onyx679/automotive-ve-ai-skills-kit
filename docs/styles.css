@@ -77,6 +77,32 @@ a {
   color: var(--teal-dark);
 }
 
+.language-switcher {
+  display: inline-flex;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.language-button {
+  min-width: 44px;
+  min-height: 32px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.language-button.active {
+  background: var(--ink);
+  color: #ffffff;
+}
+
 .hero {
   min-height: 88vh;
   display: flex;
@@ -371,6 +397,14 @@ a.table-row:hover {
   .nav-links {
     flex-wrap: wrap;
     gap: 14px;
+  }
+
+  .language-switcher {
+    align-self: stretch;
+  }
+
+  .language-button {
+    flex: 1;
   }
 
   .hero-inner,
