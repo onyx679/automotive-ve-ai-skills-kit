@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.4.1 - 2026-06-16
+
+- Add a reviewer-facing case study that explains the workflow-notes-to-AI-Skills conversion method.
+- Add case study links to the portfolio page, verification section, and bilingual README files.
+- Keep the case study scoped to public simulated examples and explicit human-review boundaries.
+
 ## v0.4.0 - 2026-06-16
 
 - Add `ve-skill-benchmark-adapter` for turning community Skill patterns into properly attributed automotive VE/VAVE Skill designs.
